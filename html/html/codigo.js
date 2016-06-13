@@ -1,10 +1,8 @@
-var nombre = promt('cual es su nombre?');
-if (nombre == 'jhon kpera') 
-{
-	alert('bienvenidos: ' +nombre+' el goleador');
-}
- else 
- {
-	alert('bienvenido: ' +nombre+' el defesa');
+var nombre = prompt('cual es su nombre?');
 
-} 
+if (nombre == 'gilldarts') {
+	alert('bienvenido: '+nombre+' el maestro del gremio')
+}
+else{
+	alert('bienvenido: '+nombre+' rango S')
+}
